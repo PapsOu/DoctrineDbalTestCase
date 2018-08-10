@@ -22,7 +22,7 @@ class ExampleEntity
     private $name;
 
     /**
-     * @ORM\Column(type="string", nullable=true)
+     * @ORM\Column(type="json", nullable=true)
      */
     private $anArray;
 
